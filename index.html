@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="sr">
+<head>
+<meta charset="utf-8">
+<!-- Google Tag Manager: код контейнера вставляет автор по заказу «Смоков» (СМ-09) -->
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="canonical" href="https://tepih.dokuwell.com/">
+<title>Program za tepih servis — preuzimanje, merenje m², faze pranja, dostava i SMS klijentu</title>
+<meta name="description" content="Program za tepih servis: prijem tepiha sa preuzimanjem, merenje kvadrature, praćenje faza pranje–sušenje–dostava, ruta dostave i poruka klijentu kada je tepih gotov.">
+<link rel="icon" href="favicon.svg">
+<link rel="stylesheet" href="style.css">
+<script src="smoke.js" defer></script>
+<!-- faq-jsonld:start -->
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Da li vozač može da koristi program na telefonu?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Da. Vozač vidi preuzimanja i dostave za dan, poređane po ruti, sa navigacijom."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Kako se računa cena?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Po kvadraturi izmerenoj u radionici i vašem cenovniku za vrstu tepiha."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Da li klijent dobija poruku?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Da, SMS sa cenom posle merenja i SMS sa terminom dostave kada je tepih spreman."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Za koje servise je program?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Za male i srednje tepih servise sa jednim ili više vozila."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Mogu li već da ga koristim?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Još ne. Usluga je u pripremi i proveravamo da li je servisima potrebna."
+   }
+  }
+ ]
+}
+</script>
+<!-- faq-jsonld:end -->
+</head>
+<body>
+<!-- Google Tag Manager (noscript): по заказу «Смоков» (СМ-09) -->
+
+<header><div class="wrap">
+  <div class="logo"><a href="index.html" data-ev="click_logo_home">Tepih Evidencija</a></div>
+  <nav class="top"><a href="#sta" data-ev="click_nav_sta">Šta dobijate</a><a href="price.html" data-ev="click_nav_cena">Cena</a><a href="#primer" data-ev="click_nav_primer">Primer</a><a href="#start" data-ev="click_nav_start">Početak</a></nav>
+</div></header>
+
+<div class="wrap">
+  <div class="hero">
+    <h1>Tepih servis bez papira — od preuzimanja i merenja do dostave i poruke klijentu</h1>
+    <p class="sub">Svaki tepih ima svoju karticu: preuzimanje sa adrese, merenje m² i cena, faza pranja i sušenja, ruta dostave za vozača i poruka klijentu kada je tepih spreman.</p>
+    <a class="cta" href="price.html" data-ev="cta_click">Ovo mi treba</a>
+    <p class="cta-note">Usluga u pripremi · Na ovoj stranici se ne prima plaćanje</p>
+  </div>
+
+  <section id="sta" data-view="features_view">
+    <h2>Šta dobijate</h2>
+    <div class="grid">
+      <div class="card"><b>Prijem i preuzimanje</b><span>Porudžbina sa adresom, brojem tepiha i terminom preuzimanja; vozač je vidi na telefonu.</span><br><a class="btn" href="price.html" data-ev="feature_prijem">Ovo mi treba</a></div>
+      <div class="card"><b>Merenje m²</b><span>Dimenzije svakog tepiha unete posle merenja, cena izračunata po kvadratu.</span><br><a class="btn" href="price.html" data-ev="feature_merenje">Ovo mi treba</a></div>
+      <div class="card"><b>Faze rada</b><span>Preuzet, izmeren, u pranju, na sušenju, spreman, isporučen — za svaki tepih.</span><br><a class="btn" href="price.html" data-ev="feature_faze">Ovo mi treba</a></div>
+      <div class="card"><b>Ruta i poruka klijentu</b><span>Ruta dostave za vozača i SMS klijentu kada je tepih spreman i kada vozač kreće.</span><br><a class="btn" href="price.html" data-ev="feature_poruka">Ovo mi treba</a></div>
+    </div>
+  </section>
+
+  <section id="primer" data-view="example_view">
+    <h2>Primer (izmišljeni podaci)</h2>
+    <p class="fine">Porudžbina 214: tri tepiha sa Novog Beograda, preuzeta u utorak. Izmereno 6,2, 4,5 i 2,1 m², cena izračunata. U četvrtak oprano, u subotu suvo. Klijent dobija poruku „spremno, dostava u ponedeljak između 10 i 12 h“, vozač dobija rutu sa još 8 adresa.</p>
+    <a class="cta" href="price.html" data-ev="click_cta_after_example">Izaberite paket</a>
+  </section>
+<!-- seo-tekst:start -->
+  <section id="opis">
+    <h2>Kako radi</h2>
+    <p>Tepih servis radi sa mnogo malih porudžbina koje traju po nekoliko dana. Vozač preuzima tepihe sa adrese, u radionici se mere i peru, suše se dan ili dva, a onda se vraćaju klijentu. U svakom trenutku na pranju je desetine tepiha različitih klijenata, a klijenti zovu i pitaju kada će njihov tepih biti gotov.</p>
+    <p>Kada se sve vodi u svesci i porukama, lako se pomeša čiji je tepih, zaboravi se merenje ili dostava kasni jer ruta nije isplanirana. Tepih Evidencija vodi svaku porudžbinu i svaki tepih od preuzimanja do dostave.</p>
+    <p>Porudžbina se unosi kada klijent pozove ili pošalje poruku: adresa, broj tepiha i termin preuzimanja. Vozač na telefonu vidi spisak preuzimanja za dan, poređan po ruti. Pri preuzimanju svaki tepih dobija broj i nalepnicu, tako da se u radionici ne može pomešati sa tuđim.</p>
+    <p>U radionici se tepih meri, a dimenzije se unose u program. Kvadratura i cena se računaju same, po vašem cenovniku i vrsti tepiha. Klijent može odmah dobiti poruku sa cenom. Zatim tepih prolazi faze: u pranju, na sušenju, spreman. Na ekranu se vidi koliko je tepiha u kojoj fazi i šta treba da bude gotovo do kraja nedelje.</p>
+    <p>Kada su svi tepisi jedne porudžbine spremni, program dodaje porudžbinu u rutu dostave i šalje klijentu SMS sa terminom. Vozač ima rutu na telefonu, sa navigacijom i iznosom za naplatu. Posle dostave porudžbina se zatvara, a naplata se beleži.</p>
+    <p>Na kraju meseca vidite koliko je kvadrata oprano, koliki je prihod i koliko je porudžbina po vozaču i po delu grada. To pomaže da se planiraju sezone i ture preuzimanja.</p>
+    <p>Kako izgleda jedan dan? Ujutru vozač otvara telefon i vidi rutu: preuzimanja i dostave poređane po delovima grada, sa adresama i brojem tepiha. U radionici radnici vide koliko tepiha čeka merenje, koliko je u pranju, a koliko na sušenju. Kada tepih pređe u sledeću fazu, radnik to označi jednim dodirom, pa i kancelarija i vozač odmah znaju stanje.</p>
+    <p>Kada klijent pozove da pita gde je njegov tepih, odgovor se vidi za nekoliko sekundi: u kojoj je fazi i kada je planirana dostava. Ako klijent želi da promeni termin dostave, menja se na jednom mestu, a vozač dobija novu rutu. Tako se smanjuje broj poziva i grešaka, a klijenti dobijaju tačne informacije.</p>
+    <p>U sezoni, kada se broj porudžbina višestruko poveća, program pomaže da se rasporede preuzimanja po danima i vozilima, tako da radionica ne bude zatrpana, a klijenti ne čekaju predugo.</p>
+    <p>Program je namenjen malim i srednjim tepih servisima, od jednog do nekoliko vozila. Cene, uslove i rokove određujete vi; program ih dosledno primenjuje. Program je na srpskom jeziku, latinicom.</p>
+  </section>
+  <section id="faq">
+    <h2>Pitanja i odgovori</h2>
+    <h3>Da li vozač može da koristi program na telefonu?</h3>
+    <p>Da. Vozač vidi preuzimanja i dostave za dan, poređane po ruti, sa navigacijom.</p>
+    <h3>Kako se računa cena?</h3>
+    <p>Po kvadraturi izmerenoj u radionici i vašem cenovniku za vrstu tepiha.</p>
+    <h3>Da li klijent dobija poruku?</h3>
+    <p>Da, SMS sa cenom posle merenja i SMS sa terminom dostave kada je tepih spreman.</p>
+    <h3>Za koje servise je program?</h3>
+    <p>Za male i srednje tepih servise sa jednim ili više vozila.</p>
+    <h3>Mogu li već da ga koristim?</h3>
+    <p>Još ne. Usluga je u pripremi i proveravamo da li je servisima potrebna.</p>
+  </section>
+<!-- seo-tekst:end -->
+  <section id="start" data-view="start_view">
+    <h2>Unesite prvu porudžbinu</h2>
+    <p><label>Koliko vozila imate<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— izaberite —</option><option>1</option><option>2</option><option>3–5</option><option>Više od 5</option></select></label></p>
+    <a class="cta" href="price.html" data-ev="form_submit_click">Unesi porudžbinu</a>
+  </section>
+</div>
+
+<footer><div class="wrap">
+  <p><a href="privacy.html" data-ev="click_legal_privacy">Politika privatnosti</a></p>
+  <p class="muted">Program za evidenciju porudžbina. Cene, uslove i rokove određuje tepih servis.</p>
+</div></footer>
+
+</body>
+</html>

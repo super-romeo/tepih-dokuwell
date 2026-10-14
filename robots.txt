@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tepih.dokuwell.com/sitemap.xml
